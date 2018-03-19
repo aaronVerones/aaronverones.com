@@ -5,10 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Aaron Verones</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="/css/main.css">
 
         <!-- Styles -->
         <style>
@@ -46,7 +47,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 72px;
             }
 
             .links > a {
@@ -79,15 +80,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Hi, I'm Aaron. I talk to computers.
                 </div>
-
+                <p class="subtitle">
+                    This site is currently in maintenance mode. Please check back later.
+                </p>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://www.linkedin.com/in/aaron-verones/">LinkedIn</a>
+                    <a href="https://github.com/aaronVerones">GitHub</a>
                 </div>
             </div>
         </div>
