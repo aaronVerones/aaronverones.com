@@ -56,7 +56,7 @@
             <div class="one-half column">
               <div class="expertise-block"><i class="fa fa-server"></i>
                 <h4 class="title slate">Infrastructure</h4>
-                <p class="summary">Professionally, I've administered production servers including CentOS on AWS EC2, Windows Servers on local hardware, and production MySQL databases on AWS RDS. I run my personal web applications with a LEMP stack on AWS.</p>
+                <p class="summary">Professionally, I've administered production servers running Linux + Nginx on AWS EC2 and Windows Servers on local hardware. I've also administered production MySQL databases on AWS RDS, and I run my personal web applications using a LEMP stack on AWS.</p>
               </div>
             </div>
           </div>
@@ -76,28 +76,28 @@
           </div>
           <section id="feature-embedded" class="project-showcase">
             <div class="row">
-              <div class="six columns u-pull-right"><img src="" style="border-radius: 10px;" class="project-image"></div>
+              <div class="six columns u-pull-right"><img src="/img/robot.jpg" style="border-radius: 10px;" class="project-image"></div>
               <div class="six columns u-pull-left">
                 <div class="project-content text-left">
-                  <h3 class="project-title">Featured Embedded Project</h3>
+                  <h3 class="project-title">Autonomous Robot</h3>
                   <ul class="project-tags">
                     <li>C++, Arduino</li>
                   </ul>
-                  <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><a href="" target="_blank" class="button button-primary">Check it out</a>
+                  <p class="project-description">I wrote the program that controlled this fun-looking robot. Its purpose is to play capture the flag - it grabs the enemy flags (purple plastic tubes) when it sees them. It remains undefeated after three robot vs. robot showdowns.<br><br> The robot holds an ultrasonic sensor to sense proximity, a light sensor to look for flags, two motors to drive the robot, and a servo to control the claw. I wrote the code in C++ and used APIs in the arduino library to read from the sensors and control the motors.</p><a href="https://github.com/aaronVerones/robot" target="_blank" class="button button-primary">See the code</a>
                 </div>
               </div>
             </div>
           </section>
           <section id="feature-web" class="project-showcase" style="display:none">
             <div class="row">
-              <div class="six columns u-pull-right"><img src="" style="border-radius: 10px;" class="project-image"></div>
+              <div class="six columns u-pull-right"><img src="/img/kanekta.jpg" style="border-radius: 10px;" class="project-image"></div>
               <div class="six columns u-pull-left">
                 <div class="project-content text-left">
-                  <h3 class="project-title">Featured Web Project</h3>
+                  <h3 class="project-title">Kanekta</h3>
                   <ul class="project-tags">
-                    <li>Ubuntu Server, MySQL, PHP, HTML/CSS/JS</li>
+                    <li>Linux (CentOS), Nginx, MySQL, PHP, HTML/CSS/JS</li>
                   </ul>
-                  <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><a href="" target="_blank" class="button button-primary">Check it out</a>
+                  <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><a href="https://kanekta.ca" target="_blank" class="button button-primary">Check it out</a>
                 </div>
               </div>
             </div>
