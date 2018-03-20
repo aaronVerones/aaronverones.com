@@ -68,10 +68,12 @@
           <div class="row">
             <div class="twleve columns">
               <p class="intro slate">Featured Work</p>
+              {{--
               <div class="button-group">
                   <a class="button featured-project-trigger active" data-feature="embedded">Embedded</a>
                   <a class="button featured-project-trigger " data-feature="web">Web</a>
               </div>
+              --}}
             </div>
           </div>
           <section id="feature-embedded" class="project-showcase" >
@@ -90,10 +92,10 @@
               </div>
             </div>
           </section>
-          <section id="feature-web" class="project-showcase" style="display:none">
+          <section id="feature-web" class="project-showcase" >
             <div class="row">
-              <div class="six columns u-pull-right"><img src="/img/kanekta.jpg" style="border-radius: 10px;" class="project-image"></div>
-              <div class="six columns u-pull-left">
+              <div class="six columns u-pull-left"><img src="/img/kanekta.jpg" style="border-radius: 10px;" class="project-image"></div>
+              <div class="six columns u-pull-right">
                 <div class="project-content text-left">
                   <h3 class="project-title">Kanekta</h3>
                   <ul class="project-tags">
@@ -113,6 +115,7 @@
         </div>
       </div>
       <!-- Start WIP Section-->
+      {{--
       <section id="wip">
         <div class="container">
           <div class="row">
@@ -124,29 +127,30 @@
           <!-- row -->
           <div class="row">
             <div class="one-third column">
-              <div class="expertise-block wow"><a href="" target="_blank" class="startup-brand"><img src="http://via.placeholder.com/680x400"></a>
-                <p class="description"><a href="" target="_blank">Name </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="expertise-block wow"><a href="" target="_blank" class="project-box"><img src="http://via.placeholder.com/680x400"></a>
+                <p class="description"><a href="" target="_blank">Teacherease </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="one-third column">
-              <div class="expertise-block wow"><a href="" target="_blank" class="startup-brand"><img src="http://via.placeholder.com/680x400"></a>
-                <p class="description"><a href="" target="_blank">Name </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="expertise-block wow"><a href="" target="_blank" class="project-box"><img src="http://via.placeholder.com/680x400"></a>
+                <p class="description"><a href="" target="_blank">Airport Runway </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="one-third column">
-              <div class="expertise-block wow"><a href="" target="_blank" class="startup-brand"><img src="http://via.placeholder.com/680x400"></a>
-                <p class="description"><a href="" target="_blank">Name </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="expertise-block wow"><a href="" target="_blank" class="project-box"><img src="http://via.placeholder.com/680x400"></a>
+                <p class="description"><a href="" target="_blank">Autonomous Robot </a>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
           <!-- end row -->
         </div>
       </section>
+      --}}
       <!-- Start Action Section-->
       <section id="sub-footer" class="cd-section">
         <div class="container">
           <div class="row">
             <div class="eight columns offset-by-two columns">
-              <p class="intro slate">Testimonials</p>
+              <p class="intro slate">Testimonial</p>
               <section class="project-testimonial">
                 <blockquote class="slate">“I have learned so much from Aaron and am eternally grateful to have had him on our team. It is very rare to find someone who embodies the spirit of true intrapreneur, taking every challenge as a learning opportunity and exceeding my expectations every time.”</blockquote>
                 <div class="project-testimonial-avatar"><img src="/img/pri.jpeg"></div>
