@@ -10,7 +10,6 @@ function featuredProject(type) {
             break;
         default:
         break;
-
     }
 }
 

@@ -69,12 +69,12 @@
             <div class="twleve columns">
               <p class="intro slate">Featured Work</p>
               <div class="button-group">
-                  <a class="button featured-project-trigger active" data-feature="embedded">Embedded</a>
-                  <a class="button featured-project-trigger" data-feature="web">Web</a>
+                  <a class="button featured-project-trigger " data-feature="embedded">Embedded</a>
+                  <a class="button featured-project-trigger active" data-feature="web">Web</a>
               </div>
             </div>
           </div>
-          <section id="feature-embedded" class="project-showcase">
+          <section id="feature-embedded" class="project-showcase" style="display:none">
             <div class="row">
               <div class="six columns u-pull-right"><img src="/img/robot.jpg" style="border-radius: 10px;" class="project-image"></div>
               <div class="six columns u-pull-left">
@@ -83,12 +83,14 @@
                   <ul class="project-tags">
                     <li>C++, Arduino</li>
                   </ul>
-                  <p class="project-description">I wrote the program that controlled this fun-looking robot. Its purpose is to play capture the flag - it grabs the enemy flags (purple plastic tubes) when it sees them. It remains undefeated after three robot vs. robot showdowns.<br><br> The robot holds an ultrasonic sensor to sense proximity, a light sensor to look for flags, two motors to drive the robot, and a servo to control the claw. I wrote the code in C++ and used APIs in the arduino library to read from the sensors and control the motors.</p><a href="https://github.com/aaronVerones/robot" target="_blank" class="button button-primary">See the code</a>
+                  <p class="project-description">
+                      I wrote the program that controlled this fun-looking robot. Its purpose is to play capture the flag - it grabs the enemy flags (purple plastic tubes) when it sees them. It remains undefeated after three robot vs. robot showdowns.<br><br> The robot holds an ultrasonic sensor to sense proximity, a light sensor to look for flags, two motors to drive the robot, and a servo to control the claw. I wrote the code in C++ and used APIs in the arduino library to read from the sensors and control the motors.
+                  </p><a href="https://github.com/aaronVerones/robot" target="_blank" class="button button-primary">See the code</a>
                 </div>
               </div>
             </div>
           </section>
-          <section id="feature-web" class="project-showcase" style="display:none">
+          <section id="feature-web" class="project-showcase">
             <div class="row">
               <div class="six columns u-pull-right"><img src="/img/kanekta.jpg" style="border-radius: 10px;" class="project-image"></div>
               <div class="six columns u-pull-left">
@@ -97,7 +99,13 @@
                   <ul class="project-tags">
                     <li>Linux (CentOS), Nginx, MySQL, PHP, HTML/CSS/JS</li>
                   </ul>
-                  <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><a href="https://kanekta.ca" target="_blank" class="button button-primary">Check it out</a>
+                  <p class="project-description">
+                      Kanekta is an online wholesale platform that connects ethical brands and suppliers to B2B buyers across the globe. It was built from scratch in PHP using the Laravel framework.
+                      <br><br>
+                      When I started as a Junior Developer in 2017, Kanekta was a startup in the ideation stage, and I was the only full-time developer. My work took the platform from ideation to MVP, and saw the company's very first clothing order placed, paid for, and delivered.
+                      <br><br>
+                      As Full-Stack Developer, I am now responsible for the operation of the entire application and am the first contact point for issues. Since taking on the role, I have reduced infrastructure costs by 72% by optimizing server size and scaling, made error response immediate by building an automatic reporting feature, and reduced bug rate by 62.5% through a new team workflow.
+                  </p><a href="https://kanekta.ca" target="_blank" class="button button-primary">Check it out</a>
                 </div>
               </div>
             </div>
@@ -140,15 +148,17 @@
             <div class="eight columns offset-by-two columns">
               <p class="intro slate">Testimonials</p>
               <section class="project-testimonial">
-                <blockquote class="slate">“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.”</blockquote>
-                <div class="project-testimonial-avatar"><img src=""></div>
-                <div class="project-testimonial-name">Somebody, Some title, Some company</div>
+                <blockquote class="slate">“I have learned so much from Aaron and am eternally grateful to have had him on our team. It is very rare to find someone who embodies the spirit of true intrapreneur, taking every challenge as a learning opportunity and exceeding my expectations every time.”</blockquote>
+                <div class="project-testimonial-avatar"><img src="/img/pri.jpeg"></div>
+                <div class="project-testimonial-name">Priyanka Vasudev, Co-Founder and CEO, Kanekta</div>
               </section>
+              {{--
               <section class="project-testimonial">
                 <blockquote class="slate">“ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.”</blockquote>
                 <div class="project-testimonial-avatar"><img src=""></div>
                 <div class="project-testimonial-name">Somebody, Some title, Some company</div>
               </section>
+              --}}
             </div>
           </div>
         </div>
