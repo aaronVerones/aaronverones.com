@@ -69,12 +69,12 @@
             <div class="twleve columns">
               <p class="intro slate">Featured Work</p>
               <div class="button-group">
-                  <a class="button featured-project-trigger " data-feature="embedded">Embedded</a>
-                  <a class="button featured-project-trigger active" data-feature="web">Web</a>
+                  <a class="button featured-project-trigger active" data-feature="embedded">Embedded</a>
+                  <a class="button featured-project-trigger " data-feature="web">Web</a>
               </div>
             </div>
           </div>
-          <section id="feature-embedded" class="project-showcase" style="display:none">
+          <section id="feature-embedded" class="project-showcase" >
             <div class="row">
               <div class="six columns u-pull-right"><img src="/img/robot.jpg" style="border-radius: 10px;" class="project-image"></div>
               <div class="six columns u-pull-left">
@@ -90,7 +90,7 @@
               </div>
             </div>
           </section>
-          <section id="feature-web" class="project-showcase">
+          <section id="feature-web" class="project-showcase" style="display:none">
             <div class="row">
               <div class="six columns u-pull-right"><img src="/img/kanekta.jpg" style="border-radius: 10px;" class="project-image"></div>
               <div class="six columns u-pull-left">
