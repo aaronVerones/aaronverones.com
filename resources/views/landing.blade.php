@@ -76,26 +76,10 @@
               --}}
             </div>
           </div>
-          <section id="feature-embedded" class="project-showcase" >
-            <div class="row">
-              <div class="six columns u-pull-right"><img src="/img/robot.jpg" style="border-radius: 10px;" class="project-image"></div>
-              <div class="six columns u-pull-left">
-                <div class="project-content text-left">
-                  <h3 class="project-title">Autonomous Robot</h3>
-                  <ul class="project-tags">
-                    <li>C++, Arduino</li>
-                  </ul>
-                  <p class="project-description">
-                      I wrote the program that controlled this fun-looking robot. Its purpose is to play capture the flag - it grabs the enemy flags (purple plastic tubes) when it sees them. It remains undefeated after three robot vs. robot showdowns.<br><br> The robot holds an ultrasonic sensor to sense proximity, a light sensor to look for flags, two motors to drive the robot, and a servo to control the claw. I wrote the code in C++ and used APIs in the arduino library to read from the sensors and control the motors.
-                  </p><a href="https://github.com/aaronVerones/robot" target="_blank" class="button button-primary">See the code</a>
-                </div>
-              </div>
-            </div>
-          </section>
           <section id="feature-web" class="project-showcase" >
             <div class="row">
-              <div class="six columns u-pull-left"><img src="/img/kanekta.jpg" style="border-radius: 10px;" class="project-image"></div>
-              <div class="six columns u-pull-right">
+              <div class="six columns u-pull-right"><img src="/img/kanekta.jpg" style="border-radius: 10px;" class="project-image"></div>
+              <div class="six columns u-pull-left">
                 <div class="project-content text-left">
                   <h3 class="project-title">Kanekta</h3>
                   <ul class="project-tags">
@@ -108,6 +92,38 @@
                       <br><br>
                       As Full-Stack Developer, I am now responsible for the operation of the entire application and am the first contact point for issues. Since taking on the role, I have reduced infrastructure costs by 72% by optimizing server size and scaling, made error response immediate by building an automatic reporting feature, and reduced bug rate by 62.5% through a new team workflow.
                   </p><a href="https://kanekta.ca" target="_blank" class="button button-primary">Check it out</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="feature-embedded" class="project-showcase" >
+            <div class="row">
+              <div class="six columns u-pull-left"><img src="/img/robot.jpg" style="border-radius: 10px;" class="project-image"></div>
+              <div class="six columns u-pull-right">
+                <div class="project-content text-left">
+                  <h3 class="project-title">Autonomous Robot</h3>
+                  <ul class="project-tags">
+                    <li>C++, Arduino</li>
+                  </ul>
+                  <p class="project-description">
+                      I wrote the program that controlled this fun-looking robot. Its purpose is to play capture the flag - it grabs the enemy flags (purple plastic tubes) when it sees them. It remains undefeated after three robot vs. robot showdowns.<br><br> The robot holds an Arduino unit onboard, and uses an ultrasonic sensor to sense proximity, a light sensor to look for flags, two motors to drive the robot, and a servo to control the claw. I wrote the code in C++ and used APIs in the Arduino library to read from the sensors and control the motors.
+                  </p><a href="https://github.com/aaronVerones/robot" target="_blank" class="button button-primary">See the code</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="feature-embedded" class="project-showcase" >
+            <div class="row">
+              <div class="six columns u-pull-right"><img src="/img/teacherease.jpg" style="border-radius: 10px;" class="project-image"></div>
+              <div class="six columns u-pull-left">
+                <div class="project-content text-left">
+                  <h3 class="project-title">TeacherEase</h3>
+                  <ul class="project-tags">
+                    <li>Java, JSON, JavaFX</li>
+                  </ul>
+                  <p class="project-description">
+                      TeacherEase is a Java application, and an extension of a UBC Psychology research project. A teacher would have each of their students take our questionnaire, then the application provides a profile of the different learning styles present in the classroom. It then recommends ways the teacher can modify their teaching style to fit their students.<br><br> Amid the fear that AI will replace the role of teachers, the purpose of this project is to show that augmented intelligence is far more effective. Teachers are able to make informed, data-driven decisions while still using their own emotional intelligence to reach their students best.
+                  </p><a href="https://github.com/aaronVerones/teacherease" target="_blank" class="button button-primary">See the code</a>
                 </div>
               </div>
             </div>
