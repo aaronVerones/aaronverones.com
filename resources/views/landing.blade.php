@@ -50,7 +50,7 @@
             <h1 class="cd-headline letters type"><span>Hi, I'm Aaron. I talk to computers.</span></h1>
             <div class="page-scroll learn-more">
                 <p>
-                    Software Developer at <a href="https://advancedquality.systems">Advanced Quality Systems</a><br>
+                    Software Developer at Advanced Quality Systems<br>
                     Bachelor + Master Dual Degree UBC Student<br>
                 </p>
                 <i class="fa fa-chevron-down"></i>
